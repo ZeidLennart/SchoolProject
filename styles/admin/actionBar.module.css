@@ -1,0 +1,56 @@
+.Live_Toggle{
+    float: right;
+    height: fit-content;
+    width: 8rem;
+    border-radius: 1rem;
+    border: 0.1rem solid black;
+    text-align: center;
+    margin: 0.5rem;
+}
+.Live_Toggle :hover{
+    cursor: pointer;
+}
+
+@media screen and (min-width: 0px){
+    .container{
+        height: 14.5vw;
+        width: 100vw;
+        background-color: rgb(227, 255, 250);
+        position: fixed;
+        z-index: 400;
+    }
+}
+@media screen and (min-width: 760px){
+    .container{
+        background-color: rgb(227, 255, 250);
+        height: 12vw;
+        width: 100vw;
+        position: fixed;
+        z-index: 400;
+    }
+}
+@media screen and (min-width: 1100px){
+    .container{
+        background-color: rgb(227, 255, 250);
+        height: 7.6vw;
+        width: 100vw;
+        position: fixed;
+        z-index: 400;
+    }
+}
+
+.screensize{
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 0.4rem;
+}
+
+.screepos{
+    display: inline-block;
+    padding: 0.25rem;
+    border: 0.1rem solid black;
+}
+
+.screepos:hover{
+    background-color: rgb(149, 175, 174);
+}

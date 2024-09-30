@@ -1,0 +1,163 @@
+.resizer{
+    position: absolute;
+    border-radius: 50%;
+    height: 0.8vw;
+    width: 0.8vw;
+    right: 0px;
+    bottom: 0px;
+    cursor: se-resize;
+}
+
+.resizer:hover{
+    background-color: blue;
+}
+
+.edit_button{
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    left: 0vw;
+    bottom: 0vw;
+    cursor: pointer;
+}
+
+/* edit-popUp styles  */
+
+.edit_background{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+    display: flex;  
+    align-items: center;
+    justify-content: center;  
+    z-index: 6000;
+}
+
+.edit_container{
+    width: 40rem;
+    height: fit-content;
+    border: 0.2rem solid black;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0.4rem 0.4rem 1rem black;
+}
+
+.edit_main{
+    height: 20rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.edit_Buttons{
+    cursor: pointer;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-top: 0.15rem solid rgb(85, 85, 85);
+}
+
+.edit_discarButton{
+    width: 5rem;
+    height: 2rem;
+    display: inline;
+    flex-direction: column;
+    align-self: center;
+    border-radius: 1rem;
+    border: 0.15rem solid black;
+
+}
+
+.edit_deleteButton{
+    width: 5rem;
+    height: 2rem;
+    display: inline;
+    flex-direction: column;
+    align-self: center;
+    border-radius: 1rem;
+    border: 0.15rem solid black;
+}
+
+.edit_saveButton{
+    width: 5rem;
+    height: 2rem;
+    display: inline;
+    flex-direction: column;
+    align-self: center;
+    border-radius: 1rem;
+    border: 0.15rem solid black;
+}
+.pre{
+    flex-direction: column;
+    justify-self: flex-end;
+    display: flex;
+    width: 50%;
+    position: relative;
+}
+
+.settingsBlock{
+    flex-direction: column;
+    justify-self: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+    height: 100%;
+}
+
+.previewBlock{
+    width: 100%;
+    height: 95%;
+    overflow-x: scroll;
+    flex-direction: row;
+}
+
+.inputCheckBox{
+    flex-direction: row;
+    width: 100%;
+    justify-self: flex-start;
+}
+
+.inputRange{
+    flex-direction: row;
+    width: 100%;
+    justify-self: flex-start;
+}
+
+.Zoom{
+    flex-direction: row;
+    position: absolute;
+    right: 1rem;
+    bottom: 0.3rem;
+}
+
+.Zoom a {
+    cursor: pointer;
+    width: 1rem;
+    height: 1rem;
+}
+
+.screensize{
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 0.4rem;
+}
+
+.screepos{
+    display: inline-block;
+    padding: 0.25rem;
+    border: 0.1rem solid black;
+}
+
+.screepos:hover{
+    background-color: rgb(149, 175, 174);
+}
+
+.input{
+    
+}
